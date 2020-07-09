@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>搜索框demo</title>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+
+		body{
+			width: 100vw;
+			height: 100vh;
+			background: radial-gradient(at center,
+				#3498db,#2980b9);
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		div.search{
+			height: 40px;
+			width: 500px;
+		}
+
+		div.search form{
+			width: 100%;
+			height: 100%;
+		}
+
+		div.search form input:nth-child(2){
+			width: 400px;
+			height: 100%;
+			font-size: 16px;
+			text-indent: 40px;
+			border: none;
+			float: left;
+		}
+
+		div.search form input:nth-child(3){
+			width: 100px;
+			height: 100%;
+			font-size: 16px;
+			letter-spacing: 5px;
+			border: none;
+		}
+
+		div.search form img{
+			position: absolute;
+			left: 50vw;
+			transform: translateX(-250px);
+			margin-top: 10px;
+			margin-left: 10px;
+			height: 20px;
+		}
+	</style>
+</head>
+<body>
+	<div class="search">
+		<form action="#" method="post">
+<!--			<img src="./search_ico.png" alt="">-->
+			<input type="text" name="condition" placeholder="请输入搜索条件">
+			<input type="submit" value="搜索">
+		</form>
+	</div>
+</body>
+</html>
