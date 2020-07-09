@@ -1,14 +1,14 @@
 [database]
-db_addr = 101.132.174.82
+db_addr = 
 db_port = 5432
-db_database = wdb
-db_username = postgres
-db_password = 923345
+db_database = 
+db_username = 
+db_password = 
 
 [server]
 server_addr = 0.0.0.0
 server_port = 5000
-remote_addr = 101.132.174.82
+remote_addr = 
 
 
 
